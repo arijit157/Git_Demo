@@ -16,7 +16,7 @@ public class Exception4 {
                     flag=false;
                 }
             } catch (Exception e) {
-                // TODO: handle exception
+                System.out.println(e.getMessage());
             }
         }
         System.out.println("Closing application...");

@@ -1,10 +1,9 @@
 package stream_API;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
-public class FindMinimum1 {
+public class FindMinMax {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<Integer>();
 

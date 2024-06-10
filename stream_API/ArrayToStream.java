@@ -1,11 +1,11 @@
 package stream_API;
 
-import java.util.stream.Stream;
+import java.util.Arrays;
 
 public class ArrayToStream {
     public static void main(String[] args){
-        Integer arr[]=new Integer[] {10,20,30,40,50,60,70};
+        int arr[]=new int[] {10,20,30,40,50,60,70};
 
-        Stream.of(arr).forEach(i -> System.out.println(i));
+        Arrays.stream(arr).forEach(el -> System.out.println(el));
     }
 }
