@@ -1,1 +1,2 @@
 This is feature2 branch
+Fixed the bug of login token generation
